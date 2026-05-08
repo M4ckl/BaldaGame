@@ -1,0 +1,10 @@
+#ifndef BALDAGAME_MOVESTATUS_H
+#define BALDAGAME_MOVESTATUS_H
+
+enum class MoveStatus {
+    SUCCESS,
+    INVALID_PLACEMENT,
+    NOT_IN_DICTIONARY
+};
+
+#endif
